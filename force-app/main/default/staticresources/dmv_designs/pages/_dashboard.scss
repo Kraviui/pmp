@@ -1,0 +1,240 @@
+
+
+c-cf-need-your-attention, c-cf-open-applications, c-cf-attention{
+    font-family: $font-family;
+    // min-width: 65rem;
+    // max-width: 65rem;
+    // float: left;
+    .slds-wrap {
+        border:none;
+        padding: 0px;
+        margin: 0px;
+        background: transparent;
+    }
+    .need-attention,.attention-data,.open-applications{
+        margin: 2rem 0rem 0rem 2rem;
+        padding: 1rem;
+        color:$primary;
+        box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+        border:none;
+        background: $neutral-white;
+      
+    }
+    .error-alert,.status-box-error,.status-box-success{
+        padding:1rem;
+        background: $light-gray;
+        border-left: 4px solid $error-red;
+        margin-bottom: 1rem;
+    }
+    .status-box-success{
+        border-left: 4px solid $success-green;
+    }
+}
+// c-cf-open-applications{
+//     min-width: 67rem;
+//     max-width: 67rem;
+// }
+// c-cf-open-applications{
+//     font-family: $font-family;
+//     min-width:70rem;
+//     max-width:70rem;
+//     float: left;
+//     .open-applications{
+//         margin: 2rem 2rem 0rem 2rem;
+//         padding: 1rem;
+//         color:$primary;
+//         box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+//         border:none;
+        
+//     }
+// }
+
+c-cf-attention{
+    .attention-data{
+        width: fit-content;
+    }
+}
+
+.subscribe-email{
+    font-family: $font-family;
+    // min-width:25rem;
+    // max-width: 25rem;
+    margin: 2rem 2rem 0rem 2rem;
+    padding: 1rem;
+    // float: right;
+    color:$primary;
+    box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+    border:none;
+    label{
+        font-weight: bold;
+        color: $primary;
+    }
+    .vlocity-btn{
+        border-color:$primary;
+        margin-left: -0.8rem;
+        width: 100%;
+        display: inline-block;
+    }
+
+}
+
+.eligibility-results{
+    font-family: $font-family;
+    // min-width:25rem;
+    // max-width: 25rem;
+        // float: right;
+    margin: 2rem 2rem 0rem 2rem; 
+    padding: 1rem;
+    color:$primary;
+    box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+    border:none;
+
+    .retest-button{
+        margin-left: -1rem;
+        border-radius: 2px;
+    }
+}
+
+// .siteforceDesignTimeComponent{
+//     font-family: $font-family;
+//     min-width:67rem;
+//     max-width: 67rem;
+//     float: left;
+// }
+
+c-cf-application-overview-data, c-cf-applicantionoverviewdata,c-cf-uploaddocument{
+    .slds-wrap {
+        border:none;
+        padding: 0px;
+        margin: 0px;
+        background: transparent;
+    }
+    .applicantion-overview{
+        max-width: 80rem;
+        margin:0rem auto 0 auto;
+        border:none;
+        background: transparent;
+        .overview-box{
+            background: $neutral-white;
+            font-family: $font-family;
+       
+            margin: 0.5rem 0rem 0rem 0rem;
+            padding: 1rem;
+            color:$primary;
+            float: right; 
+            box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+            border:none;
+        }
+        .radio-buttons-style{
+            border: 1px solid $primary;
+            padding: 0.5em;
+            border-radius: 2px;
+            color: $primary;
+            legend{
+                margin-bottom: 0.5rem;
+            }
+            span{
+                font-weight: normal;
+                font-size: 1rem;
+                color:$primary;
+                margin-right: 1rem;
+            }
+           
+        }
+        legend{
+            color:$primary;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            span{
+                font-weight: $font-weight-regular;
+                font-size: 1rem;
+                color:$primary;
+
+            }
+        }
+        .slds-radio_button [type=radio]:checked+.slds-radio_button__label{
+            color:$neutral-white;
+            background:$primary;
+
+            // .slds-button{
+            //     border-color:$primary;
+            // }
+            // .slds-radio_faux{
+            //     color:$primary;
+            // }
+            
+        }
+    
+    }
+}
+
+
+.page-stepers{
+    padding: 1rem;
+    float: left; 
+    box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+    background: $neutral-white;
+    font-family: $font-family;
+    // min-width: 18rem;
+    max-width: 18rem;
+    margin-right: 2rem;
+    // margin-top: -2rem;
+    .slds-progress__item.slds-is-active .slds-progress__marker{
+        border-color: $primary;
+    }
+}
+
+
+.applications-data{
+    background: $light-gray;
+    color: $primary;
+    .applications-data-alert, .applications-data-approved{
+        background: $light-orange;
+        border: 1px solid $info-orange;
+        // color: $light-gray;
+        margin-left: 0.5rem;
+        width: 98%;
+    }
+    .applications-data-approved{
+        background: $light-green;
+        border: 1px solid $success-green;
+        .outline-view-button{
+            border-color: $light-green;
+            color: $success-green;
+        }
+        .status-btn{
+            border: 1px solid $success-green;
+        }
+    }
+    .outline-view-button{
+        border-color: $primary;
+        color: $primary;
+    }
+    button{
+        span{
+            color: $primary;
+        }
+    }
+    .slds-rich-text-editor__output{
+        color: $neutral-gray;
+    }
+    .status-btn{
+        background: $light-orange;
+        border: 1px solid $info-orange;
+        border-radius: 100px;
+        color: $primary;
+        padding: 0.1rem 1rem;
+        width: auto;
+        margin-left: -3px;
+        margin-top: 0.3rem;
+        font-weight: bold;
+        button{
+            background: none;
+            border: none;
+        }
+    }
+    strong{
+        color: $primary;
+    }
+}
+

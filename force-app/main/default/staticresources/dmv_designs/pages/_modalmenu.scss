@@ -1,0 +1,94 @@
+.modal-menu{
+    background: $primary;
+    color: $neutral-white;
+    font-family: $font-family;
+    font-size: $font-size-2;
+    font-weight: $font-weight-regular;
+    margin-top: 8rem;
+    .slds-col{
+        margin-right: 2rem;
+        h6{
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(107, 114, 128, 0.2);
+            font-weight: $font-weight-semibold;
+            padding-bottom: 1rem;
+        }
+        li{
+            margin-bottom: 2rem;
+            line-height: 2rem;
+           
+            p{
+                font-weight:$font-weight-light;
+            }
+        }
+        b{
+            font-size: $font-size-2;
+    
+        }
+        .eligibility-check{
+            background-color: $secondary;
+            padding: 1rem;
+            svg{
+                fill:$neutral-white;
+                width: 1rem;
+                margin-left: 0.5;
+            }
+        }
+    }
+   
+    .modal-close{
+        color:$neutral-white;
+        font-size: $font-size-7;
+        background: transparent;
+        text-align: right;
+        float: right;
+        font-weight: $font-weight-light;
+        border-radius: 100rem;
+        padding: 0.5rem 1.2rem;
+        &:hover{
+            background: $secondary;
+            color:$neutral-white;
+        }
+        svg{
+            fill:$neutral-white;
+            width: 1.5rem;
+            margin-left: 0.5;
+            margin-top: -6px;
+        }
+
+    }
+    .bottom-links{
+        border-top: 1px solid rgba(107, 114, 128, 0.2);
+        padding-top: 1rem;
+        a{
+            color: $neutral-white!important;
+          }
+    }
+
+    &::after{
+        content: " ";
+        position: absolute;
+        background: rgba(0,0,0,0.8);
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        width: 100%;
+        z-index: -1;
+    }
+
+}
+.magamenu-box{
+    .close-button{
+        position: absolute;
+        right: 6rem;
+        top: 9rem;
+        color: $neutral-white;
+        background: transparent;
+        width: 2.5rem;
+        height: 2.5rem;
+        border: none;
+        border-radius: 100rem;
+        font-size: $font-size-6;
+        font-family:$font-family;
+    }
+}

@@ -1,0 +1,102 @@
+<aura:component access="global" implements="lightning:availableForFlowScreens">
+    <ltng:require styles="{!$Resource.dmv_designs  + 'main.css'}" />
+    <ltng:require styles="{!join(',',$Resource.dmv_designs + '/main.css')}" />
+    <section class="user-header" tabindex="-1">
+
+        <div
+            class="slds-grid slds-grid_align-spread slds-container--x-large slds-container--center slds-grid--vertical-align-center slds-p-top_medium slds-p-bottom_medium">
+            <a href="#" title="Department Of Motor Vehicles" class="dmv-logo">
+                <img src="{!$Resource.dmv_designs + '/icons/logo.svg'}" alt="DMV" />
+                Department Of Motor Vehicles</a>
+
+            <div class="slds-grid slds-grid--vertical-align-center">
+                <img src="{!$Resource.dmv_designs + '/icons/langvage.svg'}" alt="DMV" />
+                <div class="slds-p-right_large select-language">
+
+                    <lightning:select name="English" label="" required="false">
+                        <option value="1">English</option>
+                        <option value="2">English</option>
+                        <option value="3">English</option>
+                    </lightning:select>
+                </div>
+
+                <div class="slds-p-right_large select-language">
+                    <lightning:select name="John Doe" label="" required="false">
+                        <option value="1">Settings</option>
+                        <option value="2">Help</option>
+                        <option value="3">English</option>
+                    </lightning:select>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <section class="dmv-nav" tabindex="-1">
+        <div
+            class="slds-grid slds-grid_align-spread slds-container--x-large slds-container--center slds-grid--vertical-align-center slds-p-top_medium slds-p-bottom_medium">
+            <div class="slds-p-right_large select-language" onclick="{!c.openmodal}">
+                <lightning:select name="Licenses" label="" required="false">
+
+                    <option value="2">Permits</option>
+                </lightning:select>
+            </div>
+
+            <div class="slds-p-right_large select-language" onclick="{!c.openmodal}">
+                <lightning:select name="Registration" label="" required="false">
+                    <option value="1">Registration</option>
+                    <option value="2">Registration Status</option>
+                </lightning:select>
+            </div>
+
+            <div class="slds-p-right_large select-language" onclick="{!c.openmodal}">
+                <lightning:select name="Appointment" label="" required="false">
+                    <option value="1">New Appointment</option>
+                    <option value="2">Appointment Status</option>
+                </lightning:select>
+            </div>
+
+            <div class="slds-p-right_large select-language" onclick="{!c.openmodal}">
+                <lightning:select name="Appointment" label="" required="false">
+                    <option value="1">Appointment</option>
+                    <option value="2">Appointment Status</option>
+                </lightning:select>
+            </div>
+
+            <div class="slds-p-right_large select-language" onclick="{!c.openmodal}">
+                <lightning:select name="Vehicle" label="" required="false">
+                    <option value="1">Vehicle </option>
+                    <option value="2">Registration</option>
+                </lightning:select>
+            </div>
+
+            <div class="slds-p-right_large select-language" onclick="{!c.openmodal}">
+                <lightning:select name="Real ID" label="" required="false">
+                    <option value="1">Real ID </option>
+                    <option value="2">Real ID</option>
+                </lightning:select>
+            </div>
+
+
+            <div class="slds-p-right_large select-language" onclick="{!c.openmodal}">
+                <lightning:select name="Vehicle and Registration history" label="" required="false">
+                    <option value="1">Vehicle </option>
+                    <option value="2">Test Preparation</option>
+                </lightning:select>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <div role="dialog" tabindex="-1" aria-labelledby="header43" aura:id="Modalbox" class="slds-modal magamenu-box">
+        <button class="close-button" title="Close" onclick="{!c.closeModal}">
+            X
+        </button>
+        <c:magaMenu></c:magaMenu>
+    </div>
+
+
+</aura:component>

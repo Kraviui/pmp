@@ -1,0 +1,52 @@
+<aura:component implements="forceCommunity:themeLayout" description="Department Of Transport" access="global">
+    <aura:attribute name="userHeader" type="Aura.Component[]" />
+    <aura:attribute name="eligibilityResults" type="Aura.Component[]" />
+    <aura:attribute name="search" type="Aura.Component[]" />
+    <aura:attribute name="attention" type="Aura.Component[]" />
+    
+
+    <header role="header">
+        <c:header_theme></c:header_theme>
+    </header>
+    <div class="dmv-theam">
+        <div class="slds-grid">
+          
+                <div class="slds-col">
+                    <c:sideNavigation></c:sideNavigation>
+                </div>
+      
+            <div class="slds-col">
+                {!v.attention}
+            </div>
+            <div class="slds-col">
+              {!v.eligibilityResults}
+            </div>
+        </div>
+    </div>
+    <footer>
+        <aura:if isTrue="{!v.dashboard}">
+            <c:footer_theme></c:footer_theme>
+        </aura:if>
+    </footer>
+
+</aura:component>
+
+
+<!-- 
+    
+        <div>
+            <header role="header">
+                <c:userHeader></c:userHeader>
+            </header>
+            <div class="content user-content">
+                <div class="slds-grid">
+                    <div class="slds-col"> {!v.body}
+                    </div>
+                    
+                </div>
+              
+            </div>
+            <footer>
+              <c:userFooter></c:userFooter> 
+            </footer>
+        </div> -->

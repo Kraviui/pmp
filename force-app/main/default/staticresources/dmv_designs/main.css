@@ -1,0 +1,631 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+.text-very-small {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.text-small {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.paragraph {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.page-heading-small {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.page-sub-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.dmv-header {
+  font-family: "Open Sans", sans-serif;
+  background: #121C44;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.dmv-header a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+.dmv-header button {
+  background: #D54401;
+  border-color: #D54401;
+}
+.dmv-header button:hover {
+  background: #121C44;
+}
+.dmv-header .dmv-logo {
+  font-weight: 600;
+}
+.dmv-header .select-language button {
+  background: none;
+  border-color: transparent;
+  color: #fff;
+}
+.dmv-header .select-language button svg {
+  fill: #fff;
+}
+.dmv-header select:hover {
+  background: transparent;
+}
+.dmv-header select:focus {
+  background: transparent;
+}
+
+.dmv-nav {
+  font-size: 1rem;
+}
+.dmv-nav button {
+  border: none;
+  color: #121C44;
+}
+.dmv-nav button svg {
+  fill: #121C44;
+}
+.dmv-nav button:hover {
+  color: #D54401;
+}
+
+.dmv-footer {
+  font-family: "Open Sans", sans-serif;
+  border-top: 2px solid #D54401;
+  color: #4B5563;
+}
+.dmv-footer p {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+.dmv-footer b {
+  display: block;
+}
+.dmv-footer a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  color: #4B5563;
+  text-decoration: none;
+  font-weight: 300;
+}
+.dmv-footer a:hover {
+  color: #D54401;
+}
+.dmv-footer li {
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+.dmv-footer .dmv-footer-logo p {
+  width: 14rem;
+}
+.dmv-footer .dmv-footer-logo span {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.dmv-footer .helpline-details b {
+  font-weight: 500;
+}
+
+.user-header {
+  font-family: "Open Sans", sans-serif;
+  background: #121C44;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.user-header select {
+  background: none;
+  border: none;
+}
+.user-header label {
+  display: none;
+}
+.user-header a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+.user-header button {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+.user-header button:hover {
+  background: #121C44;
+}
+.user-header .dmv-logo {
+  font-weight: 600;
+}
+.user-header .dmv-logo img {
+  padding-right: 1rem;
+}
+.user-header .select-language button {
+  background: none;
+  border-color: transparent;
+  color: #fff;
+}
+.user-header .select-language button svg {
+  fill: #fff;
+}
+.user-header .slds-select_container::before {
+  display: none;
+}
+.user-header .slds-select_container::after {
+  top: 15px;
+  right: 0px;
+  border-left: 5px solid transparent;
+  border-right: 6px solid transparent;
+}
+
+.dmv-nav {
+  background-color: #fff;
+  font-size: 1rem;
+}
+.dmv-nav select {
+  background: none;
+  border: none;
+}
+.dmv-nav label {
+  display: none;
+}
+.dmv-nav button {
+  border: none;
+  color: #121C44;
+}
+.dmv-nav button svg {
+  fill: #121C44;
+}
+.dmv-nav button:hover {
+  color: #D54401;
+}
+.dmv-nav .slds-select_container::before {
+  display: none;
+}
+.dmv-nav .slds-select_container::after {
+  top: 15px;
+  right: 0px;
+  border-left: 5px solid transparent;
+  border-right: 6px solid transparent;
+}
+
+.user-footer {
+  font-family: "Open Sans", sans-serif;
+  color: #4B5563;
+  background-color: #F7F9FC;
+  box-shadow: none;
+}
+.user-footer a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  color: #4B5563;
+  text-decoration: none;
+  font-weight: 300;
+}
+.user-footer a:hover {
+  color: #D54401;
+}
+.user-footer .full-width {
+  width: 100%;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.slds-col--padded {
+  padding: 0px !important;
+}
+
+.browse-all {
+  color: #121C44;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.cDMVTheme {
+  display: initial;
+}
+
+.slds-button_outline-brand {
+  border-color: #121C44;
+  color: #121C44;
+}
+
+.slds-button_outline-brand {
+  border-color: #121C44;
+  color: #121C44;
+}
+
+.slds-button_brand {
+  background-color: #121C44;
+  border-color: #121C44;
+}
+
+a {
+  color: #121C44;
+}
+
+button:focus,
+a:focus,
+input:focus,
+select:focus,
+textarea:focus,
+.slds-input:focus {
+  outline: 2px dotted #4B5563;
+  outline-offset: 3px;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 6;
+}
+header select {
+  cursor: pointer;
+}
+header select:hover {
+  background: transparent !important;
+}
+header select:focus {
+  background: transparent !important;
+}
+
+.user-content {
+  background: #F7F9FC;
+}
+.user-content .contentRegion {
+  margin-top: -1.5rem;
+}
+
+.user-sidenavigation {
+  background: #fff;
+  height: 110vh;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.15);
+  min-width: 14rem;
+  max-width: 14rem;
+}
+.user-sidenavigation .slds-nav-vertical__item:hover {
+  background: #F3F6FF;
+}
+.user-sidenavigation nav li {
+  padding: 1rem;
+  cursor: pointer;
+}
+.user-sidenavigation nav li a {
+  color: #121C44;
+  text-decoration: none;
+}
+.user-sidenavigation nav li a svg {
+  fill: #121C44;
+}
+.user-sidenavigation nav li a img {
+  padding-right: 1rem;
+}
+.user-sidenavigation nav li:hover {
+  background: #F3F6FF;
+  border-right: 1px solid #121C44;
+}
+.user-sidenavigation nav .slds-is-active {
+  background: #F3F6FF;
+  border-right: 1px solid #121C44;
+}
+
+c-cf-need-your-attention, c-cf-open-applications, c-cf-attention {
+  font-family: "Open Sans", sans-serif;
+}
+c-cf-need-your-attention .slds-wrap, c-cf-open-applications .slds-wrap, c-cf-attention .slds-wrap {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  background: transparent;
+}
+c-cf-need-your-attention .need-attention, c-cf-need-your-attention .attention-data, c-cf-need-your-attention .open-applications, c-cf-open-applications .need-attention, c-cf-open-applications .attention-data, c-cf-open-applications .open-applications, c-cf-attention .need-attention, c-cf-attention .attention-data, c-cf-attention .open-applications {
+  margin: 2rem 0rem 0rem 2rem;
+  padding: 1rem;
+  color: #121C44;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  border: none;
+  background: #fff;
+}
+c-cf-need-your-attention .error-alert, c-cf-need-your-attention .status-box-error, c-cf-need-your-attention .status-box-success, c-cf-open-applications .error-alert, c-cf-open-applications .status-box-error, c-cf-open-applications .status-box-success, c-cf-attention .error-alert, c-cf-attention .status-box-error, c-cf-attention .status-box-success {
+  padding: 1rem;
+  background: #F7F9FC;
+  border-left: 4px solid #CD0D0D;
+  margin-bottom: 1rem;
+}
+c-cf-need-your-attention .status-box-success, c-cf-open-applications .status-box-success, c-cf-attention .status-box-success {
+  border-left: 4px solid #219542;
+}
+
+c-cf-attention .attention-data {
+  width: fit-content;
+}
+
+.subscribe-email {
+  font-family: "Open Sans", sans-serif;
+  margin: 2rem 2rem 0rem 2rem;
+  padding: 1rem;
+  color: #121C44;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  border: none;
+}
+.subscribe-email label {
+  font-weight: bold;
+  color: #121C44;
+}
+.subscribe-email .vlocity-btn {
+  border-color: #121C44;
+  margin-left: -0.8rem;
+  width: 100%;
+  display: inline-block;
+}
+
+.eligibility-results {
+  font-family: "Open Sans", sans-serif;
+  margin: 2rem 2rem 0rem 2rem;
+  padding: 1rem;
+  color: #121C44;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  border: none;
+}
+.eligibility-results .retest-button {
+  margin-left: -1rem;
+  border-radius: 2px;
+}
+
+c-cf-application-overview-data .slds-wrap, c-cf-applicantionoverviewdata .slds-wrap, c-cf-uploaddocument .slds-wrap {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  background: transparent;
+}
+c-cf-application-overview-data .applicantion-overview, c-cf-applicantionoverviewdata .applicantion-overview, c-cf-uploaddocument .applicantion-overview {
+  max-width: 80rem;
+  margin: 0rem auto 0 auto;
+  border: none;
+  background: transparent;
+}
+c-cf-application-overview-data .applicantion-overview .overview-box, c-cf-applicantionoverviewdata .applicantion-overview .overview-box, c-cf-uploaddocument .applicantion-overview .overview-box {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  margin: 0.5rem 0rem 0rem 0rem;
+  padding: 1rem;
+  color: #121C44;
+  float: right;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  border: none;
+}
+c-cf-application-overview-data .applicantion-overview .radio-buttons-style, c-cf-applicantionoverviewdata .applicantion-overview .radio-buttons-style, c-cf-uploaddocument .applicantion-overview .radio-buttons-style {
+  border: 1px solid #121C44;
+  padding: 0.5em;
+  border-radius: 2px;
+  color: #121C44;
+}
+c-cf-application-overview-data .applicantion-overview .radio-buttons-style legend, c-cf-applicantionoverviewdata .applicantion-overview .radio-buttons-style legend, c-cf-uploaddocument .applicantion-overview .radio-buttons-style legend {
+  margin-bottom: 0.5rem;
+}
+c-cf-application-overview-data .applicantion-overview .radio-buttons-style span, c-cf-applicantionoverviewdata .applicantion-overview .radio-buttons-style span, c-cf-uploaddocument .applicantion-overview .radio-buttons-style span {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #121C44;
+  margin-right: 1rem;
+}
+c-cf-application-overview-data .applicantion-overview legend, c-cf-applicantionoverviewdata .applicantion-overview legend, c-cf-uploaddocument .applicantion-overview legend {
+  color: #121C44;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+c-cf-application-overview-data .applicantion-overview legend span, c-cf-applicantionoverviewdata .applicantion-overview legend span, c-cf-uploaddocument .applicantion-overview legend span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #121C44;
+}
+c-cf-application-overview-data .applicantion-overview .slds-radio_button [type=radio]:checked + .slds-radio_button__label, c-cf-applicantionoverviewdata .applicantion-overview .slds-radio_button [type=radio]:checked + .slds-radio_button__label, c-cf-uploaddocument .applicantion-overview .slds-radio_button [type=radio]:checked + .slds-radio_button__label {
+  color: #fff;
+  background: #121C44;
+}
+
+.page-stepers {
+  padding: 1rem;
+  float: left;
+  box-shadow: 0px 2px 4px rgba(63, 35, 143, 0.05), 0px 0px 8px 2px rgba(63, 35, 143, 0.05);
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  max-width: 18rem;
+  margin-right: 2rem;
+}
+.page-stepers .slds-progress__item.slds-is-active .slds-progress__marker {
+  border-color: #121C44;
+}
+
+.applications-data {
+  background: #F7F9FC;
+  color: #121C44;
+}
+.applications-data .applications-data-alert, .applications-data .applications-data-approved {
+  background: #F9F9F3;
+  border: 1px solid #FDB827;
+  margin-left: 0.5rem;
+  width: 98%;
+}
+.applications-data .applications-data-approved {
+  background: #EFF4F6;
+  border: 1px solid #219542;
+}
+.applications-data .applications-data-approved .outline-view-button {
+  border-color: #EFF4F6;
+  color: #219542;
+}
+.applications-data .applications-data-approved .status-btn {
+  border: 1px solid #219542;
+}
+.applications-data .outline-view-button {
+  border-color: #121C44;
+  color: #121C44;
+}
+.applications-data button span {
+  color: #121C44;
+}
+.applications-data .slds-rich-text-editor__output {
+  color: #4B5563;
+}
+.applications-data .status-btn {
+  background: #F9F9F3;
+  border: 1px solid #FDB827;
+  border-radius: 100px;
+  color: #121C44;
+  padding: 0.1rem 1rem;
+  width: auto;
+  margin-left: -3px;
+  margin-top: 0.3rem;
+  font-weight: bold;
+}
+.applications-data .status-btn button {
+  background: none;
+  border: none;
+}
+.applications-data strong {
+  color: #121C44;
+}
+
+.modal-menu {
+  background: #121C44;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 8rem;
+}
+.modal-menu .slds-col {
+  margin-right: 2rem;
+}
+.modal-menu .slds-col h6 {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(107, 114, 128, 0.2);
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.modal-menu .slds-col li {
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.modal-menu .slds-col li p {
+  font-weight: 300;
+}
+.modal-menu .slds-col b {
+  font-size: 0.875rem;
+}
+.modal-menu .slds-col .eligibility-check {
+  background-color: #D54401;
+  padding: 1rem;
+}
+.modal-menu .slds-col .eligibility-check svg {
+  fill: #fff;
+  width: 1rem;
+  margin-left: 0.5;
+}
+.modal-menu .modal-close {
+  color: #fff;
+  font-size: 2rem;
+  background: transparent;
+  text-align: right;
+  float: right;
+  font-weight: 300;
+  border-radius: 100rem;
+  padding: 0.5rem 1.2rem;
+}
+.modal-menu .modal-close:hover {
+  background: #D54401;
+  color: #fff;
+}
+.modal-menu .modal-close svg {
+  fill: #fff;
+  width: 1.5rem;
+  margin-left: 0.5;
+  margin-top: -6px;
+}
+.modal-menu .bottom-links {
+  border-top: 1px solid rgba(107, 114, 128, 0.2);
+  padding-top: 1rem;
+}
+.modal-menu .bottom-links a {
+  color: #fff !important;
+}
+.modal-menu::after {
+  content: " ";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.magamenu-box .close-button {
+  position: absolute;
+  right: 6rem;
+  top: 9rem;
+  color: #fff;
+  background: transparent;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 100rem;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

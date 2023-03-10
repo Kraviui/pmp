@@ -1,0 +1,22 @@
+.user-footer{
+    font-family:$font-family;
+    color: $neutral-gray;
+    background-color: $light-gray;
+    box-shadow: none;
+
+    a{
+        font-family:$font-family;
+        font-size: $font-size-2;
+        color: $neutral-gray;
+        text-decoration: none;
+        font-weight: $font-weight-light;
+        &:hover{
+            color: $secondary;
+        }
+       
+    }
+    .full-width{
+        width: 100%;
+    }
+
+}

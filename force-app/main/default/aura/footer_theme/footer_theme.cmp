@@ -1,0 +1,15 @@
+<aura:component access="global">
+    <section class="user-footer slds-p-top_large slds-docked-form-footer">
+        <div class="slds-grid slds-grid_align-spread slds-container--x-large slds-container--center slds-grid--vertical-align-center slds-p-top_medium slds-p-bottom_medium full-width">
+            <div class="slds-p-right_medium ">
+                <span>Copyright © 2023 State of California</span>
+              </div>
+
+              <div class="slds-p-left_medium ">
+                <a href="#" class="slds-p-left_medium" title="Site Map">Site Map</a>
+                <a href="#" class="slds-p-left_medium" title="Accessibility">Accessibility</a>
+                <a href="#" class="slds-p-left_medium" title="Translate">Translate</a>
+              </div>
+            </div>
+   </section>    
+</aura:component>	
